@@ -1,0 +1,140 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #4070f4;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+}
+
+.wrapper {
+  width: 430px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper header {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #4070f4;
+}
+
+.wrapper form {
+  height: 167px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed #4070f4;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.wrapper form i,
+.wrapper form p {
+  color: #4070f4;
+}
+
+.wrapper form i {
+  font-size: 50px;
+}
+
+.wrapper form p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+section .row {
+  margin-bottom: 10px;
+  background: #e9f0ff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+section .row i {
+  font-size: 30px;
+  color: #4070f4;
+}
+
+section .row span {
+  font-size: 14px;
+}
+
+.progress-area .row .content {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.progress-area .row .content .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.progress-area .row .content .progress-bar {
+  height: 6px;
+  width: 100%;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.progress-area .row .content .progress-bar .progress {
+  height: 100%;
+  width: 0%;
+  background: #4070f4;
+  border-radius: 30px;
+}
+
+.upload-area .row .content {
+  display: flex;
+  align-items: center;
+}
+
+.upload-area .row .content .details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.upload-area .row .content .details .size {
+  font-size: 11px;
+  color: #404040;
+}
+
+.upload-area .fa-check {
+  font-size: 16px;
+}
+
+.upload-area {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.upload-area::-webkit-scrollbar {
+  width: 0;
+}
